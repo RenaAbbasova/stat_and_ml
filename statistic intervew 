@@ -1,0 +1,71 @@
+Statistics are used by data
+scientists to collect, assess, analyse, and derive conclusions from data, as well as to apply
+quantitative mathematical models to applicable variables.
+
+2 main types of statistics:
+-Descriptive statistics
+     It is used by researchers to report on population and samples.
+     It gives summary descriptions of measurements taken about a group.
+
+Descriptive statistics include measurements of central tendency and measures of variability
+(spread). Central tendency metrics include the mean, median, and mode, whereas variability
+measures include standard deviation, variance, minimum and maximum variables, kurtosis,
+and skewness.A data set's properties are summarised or described using descriptive statistics.
+    There are two types of measures in descriptive statistics: measures of central tendency
+and measures of variability (or spread).
+The centre of data collection is defined using central tendency measures.
+In short, it helps to describe and understand the features of a particular data set by using
+various samples and measures of the data.
+
+Methods for determining an outlier:
+ Sorting the data and looking for extreme values
+ By data visualizing (Boxplot, Scatterplot, etc.)
+ IQR method
+ Z-Score method
+
+Standard deviation: A standard deviation is a number that describes how far measurements
+for a group differ from the mean (mean or expected value).
+
+σ = √
+∑(Xi − μ)
+2
+N
+2
+
+Where σ = Population standard deviation
+N = the size of the population
+Xi = each value from the population
+μ = the population mean
+
+Variance: A variance is a measure of how much a group of data is spread out from its mean
+value, and it is a measure of how far data points differ from the mean.
+
+σ
+2 =
+1
+n
+∑(Xi − μ)
+
+Range: In a data set the range is the difference between the highest and lowest values.
+Formulae to calculate range is given by:
+Range = Highest value – The lowest value
+
+Z =
+(X − μ)
+σ
+
+The maximum measure of kurtosis is +3. A positive kurtosis value (+3) indicates a distribution with heavier tails and a sharper peak compared to the normal distribution. This type of distribution is called leptokurtic. On the other hand, a negative kurtosis value (-3) indicates a distribution with lighter tails and a flatter peak compared to the normal distribution. This type of distribution is called platykurtic.
+
+A kurtosis value of 0 indicates a normal distribution, which is referred to as mesokurtic. It means that the distribution has similar tail behavior and concentration of data around the mean as the normal distribution.
+
+Difference between Covariance and Correlation
+ Correlation is simply a normalized form of covariance. It is obviously important to be
+precise with language when discussing the two, but conceptually they are almost
+identical.
+ The value of the correlation coefficient ranges from [-1 – 1]. -1 is indicated for a
+negative relationship. 1 means a positive relationship. 0 means no relationship.
+
+correlation =
+
+cov(x, y)
+σx ∗ σy
